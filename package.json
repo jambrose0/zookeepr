@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "jest": {
+    "verbose": true
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -19,6 +22,7 @@
   },
   "homepage": "https://github.com/jambrose0/zookeepr#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "jest": "^27.5.1"
   }
 }
